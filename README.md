@@ -1,6 +1,8 @@
 # traffic-light
 The goal of this project is to detect the button state and blink the LED with the multitasking implementation. There are two states for LED: (1) The green LED lights up for 5 seconds, then turns to the red LED lights up for 5 seconds (green LED off), and then switches back to the green LED lights up for 5 seconds (red LED off), and so on; (2) The red LED blinks. If the button is detected as pressed, the LED should switch to another state. 
 
+![](https://github.com/chuang76/traffic-light/blob/main/demo.gif)
+
 
 
 ## Environment
@@ -34,8 +36,3 @@ $ ./stm32cubeide
 ```
 
 Click Project > Build all, then click Run > Run. 
-
-
-
-## Demo
-
